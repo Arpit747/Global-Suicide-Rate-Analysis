@@ -29,7 +29,7 @@ This project analyzes global suicide rates from 1985 to 2020 using publicly avai
 - **Variables**:
   - `Location`: Country/Region
   - `Sex`: Male, Female, Both
-  - `Year`: 1985–2020
+  - `Year`: 1990–2022
   - `Standardized_Death_Rate`: Suicide rate per 100,000 population
 
 ---
