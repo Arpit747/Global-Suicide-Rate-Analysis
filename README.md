@@ -1,71 +1,70 @@
-# Global-Suicide-Rate-Analysis
+# 🌍 Global Suicide Data Visualization (Tableau)
 
-This project analyzes global suicide rates from 1985 to 2020 using publicly available datasets. The objective is to identify trends, geographical patterns, and demographic disparities to better understand global mental health challenges.
+This repository hosts the Tableau Dashboard and project documentation for **Global Suicide Statistics Visualization**. The project aims to provide an insightful, interactive visual representation of suicide rates globally across various dimensions such as gender, age, country, and time.
+
+## 🔗 Live Dashboard
+[View the Dashboard on Tableau Public](https://public.tableau.com/views/sucide_17470563005940/Dashboard1)
+
+## 📊 Project Objective
+The primary objective of this project is to:
+- Visualize global suicide trends.
+- Analyze suicide rates by age groups and gender.
+- Identify high-risk countries and demographics.
+- Raise awareness and support mental health discussions.
+
+## 📁 Repository Contents
+
+| File / Folder | Description |
+|---------------|-------------|
+| `README.md`   | Project overview and documentation. |
+| `Suicide_Dashboard.twbx` | Tableau workbook file containing the dashboard. |
+| `data/`       | Contains original dataset used in Tableau (CSV format). |
+| `png/`     | Screenshots or previews of the Tableau dashboard. |
+
+## 📦 Dataset Source
+The dataset used in this project is originally from [Kaggle - Suicide Rates Overview 1985 to 2016](https://www.kaggle.com/datasets/szamil/suicide-rates-overview-1985-to-2016), and contains:
+- Country
+- Year
+- Sex
+- Age group
+- Suicide numbers and population
+- GDP and other socio-economic factors
+
+## 📌 Key Features of the Dashboard
+- Interactive filters for country, gender, and year.
+- Line and bar charts showing suicide trends over time.
+- Age-group wise suicide distribution.
+- Country-wise comparisons using heat maps.
+
+## 🛠 Tools Used
+- **Tableau Public** – For data visualization
+- **MS Excel / CSV** – For basic preprocessing
+
+## 📈 Insights Discovered
+- Higher suicide rates are observed among males compared to females.
+- Some countries exhibit a consistent rise in suicide rates over the years.
+- The age group **35-54** often records higher suicide numbers.
+- GDP alone does not directly correlate with suicide rates, indicating complex socio-economic interactions.
+
+## 🚀 How to Use
+1. Download the `.twbx` file from this repository.
+2. Open it in [Tableau Public](https://public.tableau.com/en-us/s/download).
+3. Explore the visualizations or modify them as needed.
+
+## 📬 Contributing
+Feel free to fork the repository and contribute by:
+- Improving visualizations.
+- Adding new data sources.
+- Creating new dashboard features.
+
+## dashborad preview
+
+![Dashboard 1](https://github.com/user-attachments/assets/dc9a822c-e3dd-4999-8d82-b442a97afc0a)
+
+## 📄 License
+This pr
+oject is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 📌 Objective
-
-- Analyze historical suicide rates worldwide.
-- Visualize suicide trends by country, gender, and over time.
-- Identify countries with the highest suicide rates.
-- Communicate insights through visual dashboards.
-
----
-
-## 📊 Tools Used
-
-- **R**: Data cleaning and preprocessing
-- **Tableau**: Data visualization and interactive dashboard creation
-- **Power BI** *(optional)*: Additional visualization exploration
-- **GitHub**: Project version control and documentation
-
----
-
-## 🗂️ Dataset
-
-- **Source**: [World Health Organization (WHO)](https://www.who.int/)
-- **Format**: CSV (Raw & Cleaned versions available in `/data`)
-- **Variables**:
-  - `Location`: Country/Region
-  - `Sex`: Male, Female, Both
-  - `Year`: 1990–2022
-  - `Standardized_Death_Rate`: Suicide rate per 100,000 population
-
----
-
-## 📈 Key Findings
-
-1. **Global Trends**:
-   - Suicide rates peaked around the early 2000s and have declined since in many countries.
-   - A slow but steady downward trend is visible in global averages.
-
-2. **Top Countries (2020)**:
-   - Countries like **Lithuania**, **Russia**, **South Korea**, and **Guyana** have some of the highest suicide rates.
-
-3. **Gender Gap**:
-   - Suicide rates among **males** are consistently 2–3 times higher than **females** in most countries.
-
-4. **Regional Clustering**:
-   - Eastern Europe and parts of Asia show consistently high rates over the decades.
-
----
-
-## 🖥️ Dashboard Preview
-
-![Dashboard 1](https://github.com/user-attachments/assets/9c7a7265-9e1b-436b-a8b3-a603fcb76d8b)
-
----
-
-## 🔍 Visualizations Included
-
-| Visualization Type | Description |
-|--------------------|-------------|
-| 🌍 **World Map** | Suicide rates by country (latest year) |
-| 📊 **Bar Chart** | Top 10 countries with highest rates |
-| 📈 **Line Chart** | Global trends over time |
-| 🚻 **Gender Comparison** | Suicide rates by gender |
-
-
-
-
+> **Note**: This project deals with sensitive topics. The aim is to spread awareness and support open discussion around mental health. Viewer discretion is advised.
