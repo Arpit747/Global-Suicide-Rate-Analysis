@@ -53,8 +53,7 @@ This project analyzes global suicide rates from 1985 to 2020 using publicly avai
 
 ## 🖥️ Dashboard Preview
 
-![Dashboard Preview]![Global Suicide Trends Dashboard (1990–2022)](https://github.com/user-attachments/assets/7301acb6-2544-47e8-a5d0-a221ed29bb60)
-
+![Dashboard 1](https://github.com/user-attachments/assets/9c7a7265-9e1b-436b-a8b3-a603fcb76d8b)
 
 ---
 
@@ -67,7 +66,6 @@ This project analyzes global suicide rates from 1985 to 2020 using publicly avai
 | 📈 **Line Chart** | Global trends over time |
 | 🚻 **Gender Comparison** | Suicide rates by gender |
 
----
 
-## 📁 Project Structure
+
 
